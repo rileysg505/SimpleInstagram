@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivty">
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPassword"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="31dp"
+        android:backgroundTint="#ED405DE6"
+        android:gravity="center_horizontal"
+        android:text="Login"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etUsername"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="226dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="78dp"
+        android:src="@mipmap/nav_logo_whiteout" />
+
+</RelativeLayout>
